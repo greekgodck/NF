@@ -1,0 +1,403 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  outline: none;
+}
+.pc {
+  display: none;
+}
+a {
+  color: #d5d5d5;
+}
+
+a:active {
+  color: #008CBA;
+}
+.menuhead {
+  width: 100%;
+}
+
+.menuhead img {
+  width: 60px;
+  padding: 1rem;
+}
+.brandhead {
+  width: 100%;
+  text-align: center;
+}
+.brandhead img {
+  width: 250px;
+  padding: 1rem;
+}
+.banner1 {
+  background-image: url(images/featuremain.jpg);
+  background-size: cover;
+  padding: 8rem;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+}
+.features {
+  text-align: center;
+  width: 100%;
+}
+.featureimg img {
+  margin: 2rem;
+  width: 94%;
+}
+.features h3 {
+  font-size: 30px;
+  color: #008CBA;
+}
+.features p {
+  padding: 2.5rem;
+  font-size: 35px;
+}
+.featureinfo img {
+  max-width: 200px;
+}
+.tryservices {
+  background-color: #bfc3c8;
+  overflow: hidden;
+  border-left: 1rem solid #008CBA;
+}
+.servicetext {
+  font-size: 30px;
+}
+.servicetext h2{
+  padding: 1rem;
+  text-align: center;
+}
+.servicetext p{
+  padding: 1rem;
+  text-align: center;
+}
+.servbtn {
+  position: relative;
+  left: 226px;
+}
+footer {
+  width: 100%;
+  background-color: #222;
+  overflow: hidden;
+  padding-top: 3rem;
+}
+.aboutus {
+  width: 100%;
+  margin: 0 auto;
+}
+.aboutus img {
+  margin: 2rem;
+  width: 94%;
+  max-width: 300px;
+}
+.aboutus p {
+  max-width: 93%;
+  color: #d5d5d5;
+  margin: 4rem;
+  font-size: 35px;
+}
+.quicklinks {
+  text-align: center;
+  padding: 4rem;
+}
+.quicklinks li {
+  font-size: 35px;
+  margin-top: 1rem;
+}
+
+.blogs {
+  padding: 4rem;
+}
+.post1, .post2 {
+  max-width: 93%;
+  margin-top: 3rem;
+}
+.post1 h4, .post2 h4{
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+.blogs p{
+  color: #d5d5d5;
+}
+.contactus {
+  padding: 4rem;
+  text-align: center;
+}
+.contactus ul {
+  max-width: 100%;
+}
+.custinfo input {
+  font-size: 40px;
+  background-color: #323232;
+  border: none;
+  outline: none;
+  padding: 1.8rem;
+  margin: 2.8rem;
+  border-radius: 12px;
+}
+.button1 {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  border-radius: 8px;
+  margin: 2rem;
+
+}
+.connectus {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #323232;
+  color: #fff;
+  text-align: center;
+}
+.heading {
+  padding: 1rem;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+}
+.social1, .social2 {
+  overflow: hidden;
+  font-size: 30px;
+  padding: 1rem;
+
+}
+.social1 li {
+  padding: 1rem;
+  text-align: center;
+}
+.social2 {
+  padding-left: 94px;
+}
+
+.social2 li {
+  float: left;
+  padding: 1rem;
+}
+.social2 ul {
+margin: 0 auto;
+padding: 1rem;
+font-size: 43px;
+}
+.social2 img {
+  width: 120px;
+  max-width: 500px;
+}
+.base {
+  background-color: #222222;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  padding: 4rem;
+}
+
+@media only screen and (min-width: 767px){
+  .pc {
+    display: none;
+  }
+  .heading {
+    font-size: 35px;
+  }
+  .banner1 button {
+    font-size: 30px;
+  }
+  .blogs p {
+    font-size: 20px;
+  }
+  .post1 h4, .post2 h4{
+    font-size: 25px;
+  }
+  .social2 {
+    padding-left: 129px;
+  }
+  .base p {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 1260px) {
+  .pc {
+    display: block;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .mobile {
+    display: none;
+  }
+  .menuhead {
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+
+  }
+  .menuhead ul {
+margin: 0 auto;
+ }
+  .menuhead li {
+    float: left;
+    padding: 20px;
+  }
+
+  .brandhead {
+    text-align: unset;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .banner1 {
+    text-align: left;
+    font-size: 20px;
+  }
+  .bannerinfo {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .banner1 h2 {
+    font-weight: normal;
+  }
+  .banner1 p {
+    width: 50%;
+  }
+  .banner1 button {
+    font-size: 15px;
+    margin-left: 0px;
+    padding: 10px 12px;
+}
+  .featurebox {
+    width: 1250px;
+    margin: 0 auto;
+  }
+  .f1, .f2, .f3, .f4 {
+    width: 250px;
+    float: left;
+  }
+  .featureinfo {
+    margin-top: 30px;
+  }
+  .featureimg img {
+    width: 673px;
+    float: left;
+    margin: 2rem;
+    margin-top: 0px;
+  }
+  .featureinfo img {
+    width: 70px;
+  }
+  .features h3 {
+    font-size: 22px;
+  }
+  .features p {
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+  .tryservices {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    border-left: 0px;
+  }
+  .servbox {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #d5d5d5;
+    border-left: 1rem solid #008CBA;
+  }
+  .servicetext {
+    font-size: 24px;
+    float: left;
+}
+.servicetext h2 {
+    padding: 1rem;
+    text-align: left;
+}
+  .servbtn {
+    float: right;
+    position: unset;
+  }
+  .servbtn button {
+    font-size: 24px
+  }
+  .footerbox {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .aboutus {
+    /* float: left; */
+    width: 300px;
+    text-align: center;
+    margin: unset;
+  }
+  .aboutus p {
+    font-size: 15px;
+    text-align: left;
+    margin: 20px;
+    margin-top: 5px;
+  }
+  .aboutus img {
+    margin: 20px;
+    width: 77%;
+    margin-left: 0px;
+  }
+  .quicklinks {
+    padding: unset;
+    margin: 0px 75px;
+  }
+  .quicklinks li {
+    font-size: 15px;
+  }
+  .blogs {
+    padding: unset;
+    width: 300px;
+    /* float: left; */
+  }
+  .blogs h4 {
+    font-size: 18px;
+  }
+  .blogs p {
+    font-size: 15px;
+  }
+  .post1, .post2 {
+    margin-top: 16px;
+  }
+  .contactus {
+    padding: unset;
+  }
+  .custinfo input {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .custinfo button {
+    padding: 11px 25px;
+    font-size: 15px;
+    margin: 1rem;
+  }
+  .social1{
+    font-size: 20px;
+  }
+  .social2 {
+    margin: 0 auto;
+    max-width:620px;
+  }
+  .social2 img {
+    width: 60px;
+  }
+  .base {
+    padding: 1rem;
+  }
+  .base p {
+    font-size: 18px;
+  }
+}
